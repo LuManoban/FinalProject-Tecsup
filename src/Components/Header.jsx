@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import "../styles/Header.css";
+import '../styles/Header.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 const Header = () => {
   return (
     <>
+
       <header className="header">
         <nav className="header-nav flexbox">
           <div className="flexbox">
@@ -48,7 +49,7 @@ const Header = () => {
           </div>
         </nav>
       </header>
-
+   
     </>
   );
 };
